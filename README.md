@@ -11,8 +11,9 @@ database schema design → data population → analytical queries.
 ---
 
 ## 🛠️ Tech Stack
-- SQL Server (T-SQL)
-- GitHub
+- Database: Microsoft SQL Server
+- Language: T-SQL (Transact-SQL)
+- Tool: SQL Server Management Studio (SSMS)
 
 ---
 
@@ -58,3 +59,11 @@ Advanced SQL concepts used:
 ---
 
 ## 📁 Project Structure
+**Database Schema:** [Script Creazione Tabelle](Retail_Analytics_sql/schema_create_tables.sql)
+**Data Ingestion:** [Script Popolamento Dati](Retail_Analytics_sql/data.sql)
+**Analisi SQL (Queries):**
+    * [Livello Base](Retail_Analytics_sql/Queries/Basic_Queries.sql)
+    * [Livello Intermedio](Retail_Analytics_sql/Queries/Intermediate_Level_Queries.sql)
+    * [Livello Avanzato](Retail_Analytics_sql/Queries/Advanced_Level_Queries.sql)
+
+
